@@ -132,8 +132,8 @@ AUTHENTICATION_BACKENDS = [
  'social_core.backends.google.GoogleOAuth2',
 ]
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '218198578781-ptnkh5t5p8ivcdr9o3fsqq582srum7h5.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+# SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ''
+# SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ''
 
 
 # if DEBUG:
