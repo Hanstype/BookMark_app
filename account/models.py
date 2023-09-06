@@ -27,7 +27,7 @@ class Contact(models.Model):
         ordering = ['-created']
 
     def __str__(self):
-        return f'{self.user_form} follows {self.user_to}'
+        return f'{self.user_from} follows {self.user_to}'
     
 
 user_model = get_user_model()
