@@ -1,11 +1,12 @@
 from pathlib import Path
 from django.urls import reverse_lazy
+from decouple import config
+
+SECRET_KEY = config("SECRET_KEY")
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-
-SECRET_KEY = 'django-insecure-19gio6^_@!j&h10^j+i-n67l#+@3zgz&#!35rl8z_)9uxed_s='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
